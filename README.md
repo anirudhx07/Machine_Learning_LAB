@@ -13,11 +13,16 @@ This repository contains practical laboratory experiments and assignments for th
 ```text
 Machine_Learning_LAB/
 ├── data/                                  # Local dataset storage (optional)
-│   └── boston.csv                         # Boston Housing dataset
-├── LAB 1/                                 # Laboratory Experiment 1
+│   ├── boston.csv                         # Boston Housing dataset (Lab 1)
+│   └── heart_disease.csv                  # Heart Disease dataset (Lab 2)
+├── LAB 1/                                 # Laboratory Experiment 1: Regression
 │   ├── boston-house-price-regression.ipynb # Main Jupyter Notebook
 │   └── README.md                          # Detailed Lab 1 Documentation
-├── requirements.txt                       # Project dependencies
+├── LAB 2/                                 # Laboratory Experiment 2: Classification
+│   ├── heart-disease-prediction.ipynb     # Main Jupyter Notebook
+│   ├── requirements.txt                   # Module dependencies
+│   └── README.md                          # Detailed Lab 2 Documentation
+├── requirements.txt                       # Project root dependencies
 └── README.md                              # Main repository documentation
 ```
 
@@ -28,6 +33,7 @@ Machine_Learning_LAB/
 | Lab | Title | Key Topics | Primary Models / Algorithms |
 | :--- | :--- | :--- | :--- |
 | **[Lab 1](./LAB%201/README.md)** | **Boston House Price Prediction** | Exploratory Data Analysis (EDA), Feature Scaling, Outlier Inspection | Linear Regression, Polynomial Regression (Degree 2) |
+| **[Lab 2](./LAB%202/README.md)** | **Heart Disease Prediction** | Clinical Analytics, Data Leakage Prevention, SMOTE, Stratified CV | Logistic Regression, Decision Tree, Random Forest |
 
 ---
 
